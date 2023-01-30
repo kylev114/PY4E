@@ -1,0 +1,46 @@
+The network protocol that powers the web has built-in support in Python called socket 
+which allows network connections to retrieve data over those sockets in a Python program.
+
+A socket is  like a file, except that a single socket provides a two-way connection between two programs.
+You can both read from and write to the same socket.
+If you write something to a socket, it is sent to the application at the other end
+of the socket. If you read from the socket, you are given the data which the other
+application has sent.
+
+But if you try to read a socket when the program on the other end of the socket
+has not sent any data, you just sit and wait. If the programs on both ends of
+the socket simply wait for some data without sending anything, they will wait for
+a very long time, so an important part of programs that communicate over the
+Internet is to have some sort of protocol.
+
+A protocol is a set of precise rules that determine who is to go first, what they are
+to do, and then what the responses are to that message, and who sends next, and
+so on. In a sense the two applications at either end of the socket are doing a dance
+and making sure not to step on each other’s toes.
+
+There are many documents that describe these network protocols. The Hypertext
+Transfer Protocol is described in the following document:
+https://www.w3.org/Protocols/rfc2616/rfc2616.txt
+
+https://docs.python.org/3/library/socket.html
+
+socket; A network connection between two applications where the applications can
+send and receive data in either direction.
+
+port; A number that generally indicates which application you are contacting when
+you make a socket connection to a server. As an example, web traffic usually
+uses port 80 while email traffic uses port 25.
+
+BeautifulSoup; A Python library for parsing HTML documents and extracting
+data from HTML documents that compensates for most of the imperfections
+in the HTML that browsers generally ignore.
+
+scrape; When a program pretends to be a web browser and retrieves a web page,
+then looks at the web page content. Often programs are following the links
+in one page to find the next page so they can traverse a network of pages or
+a social network.
+
+spider; The act of a web search engine retrieving a page and then all the pages
+linked from a page and so on until they have nearly all of the pages on the
+Internet which they use to build their search index.
+
