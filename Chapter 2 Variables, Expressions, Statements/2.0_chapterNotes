@@ -1,0 +1,6 @@
+assignment statement; creates a new variable and gives it a value
+operators; +, -, *, /, ** perform addition, subtraction, multiplication, division, exponentiation
+operands; values the operator is applied to
+PEMDAS
+concatenation; +,* links strings end to end. multiplies string frequency with an integer
+newline; \n, causes a line break

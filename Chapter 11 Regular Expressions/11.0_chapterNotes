@@ -1,0 +1,10 @@
+Regular expressions are almost their own little programming language for searching
+and parsing strings. They are commoly activated by importing re module.
+As a matter of fact, entire books have been written on the
+topic of regular expressions. In this chapter, we will only cover the basics of regular
+expressions. For more detail on regular expressions, see:
+https://en.wikipedia.org/wiki/Regular_expression
+https://docs.python.org/library/re.html
+
+Key note is that regular expressions contain special action characters that give
+more control as to what will match the regular expression.

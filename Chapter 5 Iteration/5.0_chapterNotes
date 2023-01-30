@@ -1,0 +1,8 @@
+accumulator; A variable used in a loop to add up or accumulate a result.
+counter; A variable used in a loop to count the number of times something happened. 
+decrement; An update that decreases the value of a variable.
+increment; An update that increases the value of a variable (often by one).
+infinite loop; A loop in which the terminating condition is never satisfied or for which there is no terminating condition.
+indefinite loop (while); A loop that continues until a condition is met.
+definite loop (for); A loop that continues until all known sets or conditons is completed.
+iteration; Repeated execution of a set of statements using either a function that calls itself or a loop.

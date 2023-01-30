@@ -1,0 +1,7 @@
+function; named sequence of statements that performs a computation
+function definition; A statement that creates a new function, specifying its name, parameters, and the statements it executes.
+function object; A value created by a function definition. The name of the function is a variable that refers to a function object.
+function call; A statement that executes a function. It consists of the function name followed by an argument list.
+argument; A value provided to a function when the function is called; is assigned to the corresponding parameter in the function.
+void function; functions that don't return a value (in C#/C++ this is has different terminology)
+fruitful funciton; functions  that return a value

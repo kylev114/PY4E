@@ -1,0 +1,7 @@
+assignment opeator; =
+comparision operator; ==
+bool; boolean class, true or false expressions using comparison operator
+bool operators; ==, !=, >, <, >=, <=, is, is not
+logical operators; and, or, not 
+try/except; conditional statements to be executed if an error occurs
+short-circuit evlauation;  evaluation of a logical expression stops because the overall value is already known
