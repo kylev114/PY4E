@@ -1,0 +1,16 @@
+Key Terms:
+compile; To translate a program written in a high-level language into a low-level language all at once
+interpreter; To execute a program in a high-level language by translating it one line at a time (Terminal is interpreter)
+parse; To examine a program and analyze the syntactic structure.
+syntax errors; An error grammer where interprter cannot understand program
+logic errors; An error in order of statements or statement dependency 
+semantic error;  An error in a program that makes it do something other than what the programmer intended.
+source code; A program in a high-level language (usually readable by people)
+low-level language; A programming language that is designed to be easy for a computer to execute (“machine code”, “assembly language”)
+machine code; The lowest-level language for software, which is the language that is directly executed by the central processing unit (CPU).
+
+Debugging Steps:
+1. reading; review code for potential errors
+2. running; experiment with changes and edits of different versions
+3. ruminating; root cause analysis
+4. retreating; troubleshoot from earlier steps or versions
