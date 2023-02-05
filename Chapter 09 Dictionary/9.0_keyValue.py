@@ -29,7 +29,7 @@ print(eng2sp['two'])
 
 print(len(eng2sp))
 
-#You can retrieve the only the keys or only the values using the corresponding methods.
+# You can retrieve only the keys or only the values using the corresponding methods.
 # which return them as a special dict_key or value object. :
 
 engKey = (eng2sp.keys())
