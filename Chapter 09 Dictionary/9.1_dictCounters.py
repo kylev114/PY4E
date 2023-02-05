@@ -19,12 +19,12 @@
 # Here is what the code might look like:
 
 word = 'brontosaurus'
-dInput = dict()
+dInput = {}
 for letter in word:
     if letter not in dInput:
         dInput[letter] = 1
     else:
-        dInput[letter] = dInput[letter] + 1
+        dInput[letter] += 1
 print(dInput)
 
 # We are effectively computing a histogram, which is a statistical term for a set of
@@ -48,6 +48,5 @@ print(age.get('kyle', 25))
 word = 'brontosaurus'
 dInput = dict()
 for letter in word:
-    #print(letter)
     dInput[letter] = dInput.get(letter,0)+ 1
 print(dInput)

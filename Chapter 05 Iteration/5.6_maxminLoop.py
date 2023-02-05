@@ -18,3 +18,5 @@ print('Smallest:', smallest)
 
 # The built-in functions max() and min() make writing these exact loops unnecessary.
 
+
+
