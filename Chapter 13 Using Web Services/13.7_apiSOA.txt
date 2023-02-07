@@ -1,0 +1,26 @@
+# We now have (1) Ability to exchange data between applications
+# using (HTTP) and (2) Ability to represent complex data that are
+# exchanged between applications using (XML) or (JSON).
+
+# The next step is to begin to define and document “contracts” between applications
+# using these techniques. The general name for these application-to-application 
+# contracts is Application Program Interfaces (APIs). When we use an API, generally
+# one program makes a set of services available for use by other applications and
+# publishes the APIs (i.e., the “rules”) that must be followed to access the services
+# provided by the program.
+
+# When we begin to build our programs where the functionality of our program
+# includes access to services provided by other programs, we call the approach a
+# Service-oriented architecture (SOA). A SOA approach is one where our overall
+# application makes use of the services of other applications. A non-SOA approach
+# is where the application is a single standalone application which contains all of the
+# code necessary to implement the application
+
+# An example SOA is services by travel agencies like Expedia or Trivago. These sties
+# are connected through API with airline, hotel, and auto rental services. Without SOA,
+# there would need to be multiple copies of large databases. In addition, there is issues 
+# of over-commits which are bad for things like airplane seat reservations. SOA are 
+# designed for performance and needs of users. 
+
+# When an application makes a set of services in its API available over the web, we
+# call these web services.

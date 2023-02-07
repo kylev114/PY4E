@@ -1,0 +1,13 @@
+You will notice some differences between XML and JSON files.
+There are no comments in JSON files, they must be all read data.
+In XML, we can add attributes like “intl” to the “phone” tag.
+In JSON, we simply have key-value pairs. 
+Also the XML “person” tag is gone, replaced by a set of outer curly braces.
+
+In general, JSON structures are simpler than XML because JSON has fewer capabilities than XML. 
+But JSON has the advantage that it maps directly to dictionaries and lists. 
+And since nearly all other programming languages also use dictionaries and lists, 
+JSON is a very natural format to have two cooperating programs exchange data.
+
+JSON is quickly becoming the format of choice for nearly all data exchange between
+applications because of its relative simplicity compared to XML.
