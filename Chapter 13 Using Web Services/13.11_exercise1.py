@@ -48,7 +48,9 @@ while True:
     
     # ***Actual Code Edit***
     try: shortName = js['results'][0]['address_components'][2]['short_name']
-    except: shortName = 'Location not in a country'
+    except: 
+        shortName = js['results'][0]['address_components'][0]['short_name']
+        if len(shortName) >2 : shortName = 'Location not in a country'
     # ***
 
     print('Short Name:', shortName)
