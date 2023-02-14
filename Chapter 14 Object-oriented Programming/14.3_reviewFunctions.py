@@ -1,9 +1,11 @@
 # Refer to functions (chapter 4). At its most basic, functions 
-# takes inputs and returns outputs. The input/output are on the
-# "outside" which is seperated from the function code "inside."
+# take inputs and return outputs. The input/output are on the
+# "outside" which is interactable with the user.
+# The function code "inside" entails the actual process behind 
+# the prograom and is not easily accessible to the user.
 
 # Refer to BeautifulSoup program (12.8) and (14.4) figure.
-# This program takes a url input and outputs the href tags. 
+# This is a procedural program takes a url input and outputs the href tags. 
 # Within the program are several processes:
 
     # URL is read into a string and then passed into urllib to retrieve the data
@@ -14,8 +16,8 @@
     # object that returns a dictionary of tag objects. Thet tags are looped through  
     # the get() method is called for each tag to print out the href attribute.
 
-# This movement of interacting objects and infomration is contained 
-# within the program, like the black box of a function. 
+# This movement of interacting objects and information is contained 
+# within the program, and when ignored, is a black box function. 
 
 # With O-OP, complex systems can be broken into parts. The parts of 
 # BeautifulSoup library is ignored and using the program only 
