@@ -1,4 +1,4 @@
-# The __init__ method is specifically used to substantiate an object
+# The __init__ method is specifically used to substantiate an instance
 # with attributes. Each attribute after the self-parameter will then need to
 # be specified when constructing a new object instance.
 
