@@ -21,7 +21,7 @@ print(myPet.name)
 print(yourPet.name)
 
 # Instead of calling the attribute itself, it can be added to a method.
-# This is useful when working with attributes. 
+# This is useful when working with variable attributes. 
 
 print(myPet.get_age())
 
