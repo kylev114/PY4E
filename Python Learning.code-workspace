@@ -4,7 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "../100DaysOfPy"
+			"path": "../../100DaysOfPy"
 		}
 	],
 	"settings": {}

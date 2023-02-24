@@ -1,5 +1,5 @@
-# A dictionary is like a list, but more general. In a list, the index positions have to
-# be integers; in a dictionary, the indices can be (almost) any type.
+# In a list, the index positions have to be integers
+# In a dictionary, the indices can be (almost) any type.
 
 # You can think of a dictionary as a mapping between a set of indices (which are
 # called keys) and a set of values. Each key maps to a value. The association of a
@@ -8,14 +8,12 @@
 # The function dict creates a new dictionary with no items:
 
 eng2sp = dict()
-print(eng2sp)
+eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}
 
 # To add items to the dictionary, you can use square brackets:
 
 eng2sp['one'] = 'uno'
-print(eng2sp)
 
-eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}
 print(eng2sp)
 
 # The order of the key-value pairs is not the same. In fact, if you type the same
@@ -31,15 +29,22 @@ print(eng2sp['two'])
 
 print(len(eng2sp))
 
+# You can retrieve only the keys or only the values using the corresponding methods.
+# which return them as a special dict_key or value object. :
+
+engKey = (eng2sp.keys())
+spVal = (eng2sp.values())
+
 # The in operator can tell if a key apears in a dictionary:
 
 print('one' in eng2sp)
 
 print('uno' in eng2sp)
 
-# To see whether something appears as a value in a dictionary, you can use the
-# method values, which returns the values as a type that can be converted to a list,
-# and then use the in operator:
+# To see whether a value is in a dictionary, you can use the
+# method values, which returns the values as a type that 
+# can be converted to a list and then use the in operator:
 
-englishSpanish = list(eng2sp.values())
-print('uno' in englishSpanish)
+
+print('uno' in list(spVal))
+
