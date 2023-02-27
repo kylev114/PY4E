@@ -2,31 +2,44 @@
 # with attributes. Each attribute after the self-parameter will then need to
 # be specified when constructing a new object instance.
 
-class Dog:
-    def __init__(self, name, age):
+class Item:
+    def __init__(self, name, price, quantity = 5):
         self.name = name
-        self.age = age
+        self.price = price
+        self.quantity = quantity
+        print('Instance created at:', self)
         
-    def get_age(self):
-        return self.age
+    def get_price(self):
+        return self.price
     
-    def set_age(self,age):
-        self.age = age
+    def set_price(self, price):
+        self.price = price
 
 
-myPet = Dog('Tim', 7)
-yourPet = Dog('Bill', 4)
+item1 = Item('phone', 500)
+item2 = Item('computer', 800)
 
-print(myPet.name)
-print(yourPet.name)
+print(item1.name)
+print(item2.name)
 
-# Instead of calling the attribute itself, it can be added to a method.
+# Instead of calling the attribute itself, it can be added to a method (i.e. get_price()).
 # This is useful when working with variable attributes. 
 
-print(myPet.get_age())
+print(item1.get_price())
+print(item2.get_price())
 
-yourPet.set_age(99)
+item1.set_price(999)
+item2.set_price(item2.price*0.90)
 
-print(yourPet.get_age())
+print(item1.get_price())
+print(item2.get_price())
+
+# Of the three attributes, quantity has a preset value. 
+# When contructing an instance, all of the attributes need to be defined
+# except for quantity. It will be set to the default value unless specified.
+
+item3 = Item('tv', 500, 7)
+print(item3.quantity)
+
 
 
