@@ -1,6 +1,3 @@
-# 14.5 and 14.6 created an methods and attributes for class instance, not the 
-# class itself. 
-
 class Person:
     numberOfPeople = 0
 

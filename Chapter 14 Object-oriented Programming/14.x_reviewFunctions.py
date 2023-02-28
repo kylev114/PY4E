@@ -28,3 +28,18 @@
 # that can be incorporated into programs like 12.8 without requiring
 # the resources and time to understand what is happening on the "inside"
 # of their program. 
+
+import csv
+
+class Nothing():
+    
+    @classmethod
+    def readCSV(cls):  
+        fileOpen = open('items.csv', 'r')
+        fileRead = csv.DictReader(fileOpen)
+        items = list(fileRead)
+                
+        for item in items:
+                print(item)
+
+Nothing.readCSV()

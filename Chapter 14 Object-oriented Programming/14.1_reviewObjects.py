@@ -4,11 +4,11 @@
 stuff = list()                      # constructs an object of type list
 
 # Remember that we can take a use dir() function to return list of
-# different methods an object has:
+# different methods and attributes an object has:
 
 print(dir(stuff))
 
-# The following are examples of calling methods to an object:
+# The following are examples object methods and attributes:
 
 stuff.append('python')              # calls the append() method on object
 stuff.append('chuck')               # calls the append() method on object

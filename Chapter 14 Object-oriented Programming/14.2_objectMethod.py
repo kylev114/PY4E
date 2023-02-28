@@ -1,4 +1,4 @@
-# 14.2 reviewed built-in objects along with their class and methods. 
+# 14.2 reviewed built-in object along with their class and methods. 
 # The class statement can be used to initialize a new class of objects.
 # Within that initialization, object methods can be defined. 
 
@@ -22,7 +22,7 @@ myPet = Dog()
 print('Type', type(myPet))     
 print('Directory', dir(myPet))     
 
-# New methods can be added to the class declaration using def
+# New methods can be added to the class using def statement
 # to create a function. They work the same as built-in methods.
 
 myPet.bark()                
