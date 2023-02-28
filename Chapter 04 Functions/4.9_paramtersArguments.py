@@ -23,3 +23,21 @@ print_twice('Et Tu Brute? '*4)
 statement = 'Stop Repeating Yourself'
 print_twice(statement)
 
+# Defined functions require each parameter to have an argument passes. 
+# Without an argument, the function will display an error unless there is a default value specified:
+
+def addTwo(x, y=0):
+    print(x+y)
+
+addTwo(5, 6)
+addTwo(5)
+
+# If there are an unknown amount of arguments, the special character *args is used.
+# The following function has only one parameter palceholder which can take multiple arguments:
+
+
+def myFun(*paramter):
+    for argument in paramter:
+        print(argument)
+  
+myFun('Hello', 'and', 'Goodbye')
