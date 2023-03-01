@@ -12,9 +12,11 @@ As we build programs, we design data structures and write code to manipulate
 those data structures. As programs get to be millions of lines long,
 it becomes increasingly important to write code that is easy to understand.
 
-Oject-oriented programming is a way to arrange your code so that you
-can zoom into 50 lines of code and understand it while ignoring the other
-999,950 lines of code.
+Oject-oriented programming is the concept of arranging large volume of code. 
+It intends to improve efficency, usability, and functionality of code in 
+large-scale enviroments, such as corporate or open-source. Its implementation 
+requires greater resources and complexity than simple procedural programs. 
+
 
 This chapter only serves as an introduction to OOP. The key outcome is to
 have a basic understanding of how objects are constructed, their 
