@@ -1,12 +1,11 @@
-# Like attributes, methods can also be distinct between object methods and class methods.
-# A class method uses cls as first parameter which references the class and not the instance.
-# The method is also dressed @classmethod line before it to siginify its use.
-
+# Class methods are useful for accessing and using class data.
+# Adding data to a class is commonly done using a class method.
+# The following uses csv file created from 14.4
 import csv
 
 class Item:
     all = []
- 
+    itemCount = 0
     def __init__(self, name = 'invalid', price = "n/a", quantity = "n/a"):
         self.name = name
         self.price = price
@@ -37,11 +36,6 @@ class Item:
 
 Item.instantiate_from_csv("items.csv")
 
-# The data for each item of the csv file has been constrcuted as as class instance without needing to
-# individually declare each as a variable in a seperate line. The data is stored in the class list. 
-
+# Each object instance is stored in the class attribute all list.
 print(Item.all)
 print(Item.all[0].price)
-
-# Althought everything may seem redundant or unecessary, understand that the data can now be
-# controlled and manipulated with OOP concepts. 
