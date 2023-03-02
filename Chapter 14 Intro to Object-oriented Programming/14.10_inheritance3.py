@@ -18,9 +18,9 @@ class Dog(Pet):
         print('bark')
 
 # When creating the sub-classes, we still insert the intialization of the same attributes
-# inherited from the superclass. But instead of rewriting each attribute declaration, we can
+# inherited from the parent. But instead of rewriting each attribute declaration, we can
 # reference the super class attributes by using the super() method.
-# Note we can continue to add more attributes.
+# Note we can continue to add more attributes as seen with color.
 
 class Fish(Pet):  
     def __init__(self, name, age, color):

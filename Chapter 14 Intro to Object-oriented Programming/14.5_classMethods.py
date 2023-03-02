@@ -25,6 +25,7 @@ p2 = Person('bill')
 
 
 # The class attribute can be called from either the class or instance.
+# In practice, class methods are not called from instance but the option still exists.
 
 print(p1.numberOfPeople)
 print(Person.numberOfPeople)

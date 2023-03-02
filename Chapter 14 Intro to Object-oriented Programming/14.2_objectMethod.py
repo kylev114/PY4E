@@ -1,4 +1,4 @@
-# 14.2 reviewed built-in object along with their class and methods. 
+# 14.1 reviewed built-in object along with their class and methods. 
 # The class statement can be used to initialize a new class of objects.
 # Within that initialization, object methods can be defined. 
 

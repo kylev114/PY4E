@@ -1,4 +1,4 @@
-# We create a new superclass (parent) that has the same attributes as the two sub-classes.
+# We create a new parent (superclass) that has the same attributes as the two sub-classes.
 
 class Pet:
     def __init__(self, name = 'no name', age = 0):
@@ -22,23 +22,23 @@ class Dog(Pet):
     def speak(self):
         print('bark')
 
-# We can now construct an instance of the superclass 
+# We can now construct an instance of the parent 
 p = Pet('Tim', 19)
 p.show()
 
-# We construct an instances of a sub-class that inherited the properties of the superclass
+# We construct an instances of a sub-class that inherited the properties of the parent
 c = Cat('Bill', 34)
 c.show()
 
 d = Dog('Jill', 25)
 d.show()
 
-# Sub-classes can be used to contain more specific or different properties that overide superclass.
+# Sub-classes can be used to contain more specific or different properties that overide parent.
 c.speak()
 d.speak()
 p.speak()
 
-# While coding we can use superclasses properties as placeholders for more sub-classes. 
+# While coding we can use parent properties as placeholders for more sub-classes. 
 # The sub-class will use missing attributes and methods of the parent class if not defined. 
 
 class Fish(Pet):
